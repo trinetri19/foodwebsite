@@ -1,0 +1,151 @@
+.about{
+    height:10vh;
+    width:100%;
+    color: rgb(49, 138, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap:3px; */
+  }
+  .cards-holder{
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: violet; */
+  }
+  .card-row{
+    height:70%;
+    width:95%;
+    display: flex;
+    /* background-color: tomato; */
+    margin:5px 0px;
+  }
+   
+  .card{
+   height:90%;
+   width:50%;
+   margin:5px;
+   display: flex;
+   border-radius: 20px;
+   /* background-color:thistle; */
+   padding:10px;
+   
+  }
+  
+  .card-img{
+    height:95%;
+    width:50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3px;
+    margin:0px 7px;
+    border-radius: 25px;
+    padding:10px;
+    box-shadow: 5px 5px rgb(97, 92, 92);
+  } 
+  .card-img:hover{
+    transform: scale(1.02);
+    /* transition: transform 2s ease-in; */
+  }
+  .card-abo{
+    height:20%;
+    width:90%;
+    /* background-color: blueviolet; */
+   display: flex;
+   padding:5px;
+   gap:6px;
+  }
+  .info{
+    height:90%;
+    width:50%;
+    /* background-color: blanchedalmond; */
+  }
+  img{
+    height:80%;
+    width:90%;
+    border-radius: 25px;
+  }
+  
+  .btn-card{
+    height:6vh;
+    width:7vw;
+    font-size:1rem;
+    background-color: rgb(64, 143, 38);
+    color:white;
+    border-radius: 20px;
+  }
+  .btn-card:hover{
+    color: rgb(64, 143, 38);
+    background-color:white;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  .content3{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+  }
+  
+  @media only screen and (width:768px){
+    nav{
+      height: 10vh;
+      flex-direction: column;
+      padding: 2%;
+    }
+    .items{
+  gap:15%;
+    }
+  
+    .content1{
+      height:40vh;
+      gap:5%;
+      
+    }
+    .search-input{
+      height:6vh;
+  
+    }
+    input{
+      height:5vh;
+      width:60vw;
+    }
+    .btn-sear{
+      height:5vh;
+      width:7vw;
+      font-size:1.2rem;
+    }
+    h1{
+      font-size:2rem;
+     
+    }
+    .about{
+      height: 5vh;
+    }
+    .cards-holder{
+      height:125vh;
+    }
+    .card-row{
+      flex-direction: column;
+    }
+    .card{
+      width:99%;
+    }
+    img{
+      height:70%;
+    }
+    .card-abo{
+      height:25%;
+    }
+    .btn-card{
+      height: 4vh;
+      width:50%;
+    }
+  }
